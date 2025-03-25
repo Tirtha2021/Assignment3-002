@@ -43,8 +43,9 @@
 </head>
 
 <body class="sora-font">
-    <!-- header section -->
+    <!-- header -->
     <header class="border-b border-btn-primary-clr md:border-none">
+        <!-- navbar part -->
         <nav class="w-[85%] mx-auto my-6 md:flex">
             <!-- image part -->
             <div class="md:w-2/4 flex justify-between items-center">
@@ -56,28 +57,29 @@
             <!-- navbar part -->
             <div class="md:w-full hidden md:flex justify-between items-center gap-28">
                 <!-- middle part -->
-                <div class="flex gap-8 text-xl">
-                    <a href="">Product</a>
-                    <a href="">Services</a>
-                    <a href="">Contact</a>
+                <div class="flex gap-8 text-lg">
+                    <a class="hover:text-btn-primary-clr" href="">Product</a>
+                    <a class="hover:text-btn-primary-clr" href="">Services</a>
+                    <a class="hover:text-btn-primary-clr" href="">Contact</a>
                 </div>
 
                 <!-- right most part -->
                 <div class="md:flex space-x-6 md:items-center">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping rotate"></i>
                     <button class="text-xl border rounded-lg border-btn-primary-clr px-8 py-2.5">Login</button>
                     <button class="text-xl px-8 py-2 bg-btn-primary-clr rounded-lg text-white">Register</button>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- main section -->
+
+    <!-- main part -->
     <main>
         <!-- banner part -->
-        <section class="py-24 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <section class="py-16 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
             <!-- text part -->
-            <div class="text-center mx-auto md:w-3/5">
+            <div class="text-center mx-auto md:w-3/5 px-5">
                 <h1 class="font-semibold text-4xl md:text-5xl">
                     Freshness <span class="text-[#179800]">You Can <br>Count</span>
                     On, Prices You’ll Love!
@@ -95,9 +97,9 @@
         </section>
 
         <!-- service section -->
-        <section class="w-[85%] mx-auto py-24">
+        <section class="w-[85%] mx-auto py-16">
             <!-- tittle part -->
-            <h1 class="py-12 font-semibold text-4xl text-btn-primary-clr">Services</h1>
+            <h1 class="py-12 font-semibold md:text-4xl text-3xl text-btn-primary-clr">Services</h1>
 
             <!-- card part -->
             <div class="grid md:grid-cols-3 grid-cols-1 gap-6">
@@ -140,14 +142,16 @@
         <section class="w-full bg-btn-secondary-clr py-16">
             <div class="w-[85%] mx-auto">
                 <!-- title part -->
-                <h1 class="py-8 font-semibold text-4xl text-btn-primary-clr">Popular Products</h1>
+                <h1 class="py-4 font-semibold md:text-4xl text-3xl text-btn-primary-clr">Popular Products</h1>
 
                 <!-- product part -->
                 <div class="md:py-4 flex md:flex-row flex-col mx-auto">
                     <!-- card part -->
                     <div class="md:w-2/5 bg-gradient-to-r from-[#53DB3A] to-[#FFFFFF] rounded-lg">
                         <h1 class="pl-10 pt-12 text-2xl text-white font-bold">30% off</h1>
-                        <p class="pl-10 py-4">Discover a world of treats, toys, and essentials handpicked for </p>
+                        <p class="pl-10 py-4 px-8">These include smartphones, fashion wear, gadgets, and household
+                            essentials.
+                        </p>
                         <button class="bg-white text-black py-2 px-4 ml-10 rounded-lg">Buy Now</button>
 
                         <!-- img part -->
@@ -162,12 +166,12 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/onion.png" alt="">
+                                    <img class="animate-bounce" src="images/onion.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Onion 1 KG</h3>
                                     <h5 class="text-xs font-semibold">$49.99</h5>
@@ -179,12 +183,12 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/onion.png" alt="">
+                                    <img class="animate-bounce" src="images/onion.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Onion 1 KG</h3>
                                     <h5 class="text-xs font-semibold">$49.99</h5>
@@ -195,12 +199,12 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/onion.png" alt="">
+                                    <img class="animate-bounce" src="images/onion.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Onion 1 KG</h3>
                                     <h5 class="text-xs font-semibold">$49.99</h5>
@@ -211,15 +215,15 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/tomato.png" alt="">
+                                    <img class="animate-bounce" src="images/tomato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.4</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Tomato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$50.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -227,15 +231,15 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/tomato.png" alt="">
+                                    <img class="animate-bounce" src="images/tomato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.4</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Tomato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$50.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -243,15 +247,15 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/tomato.png" alt="">
+                                    <img class="animate-bounce" src="images/tomato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.4</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">Tomato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$50.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -259,15 +263,15 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/potato.png" alt="">
+                                    <img class="animate-bounce" src="images/potato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">potato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$48.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -275,15 +279,15 @@
                         <div class="bg-white p-4 rounded-lg">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/potato.png" alt="">
+                                    <img class="animate-bounce" src="images/potato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">potato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$48.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -291,15 +295,15 @@
                         <div class="bg-white p-4 rounded-lg hidden md:block">
                             <div class="flex gap-3 items-center">
                                 <figure class="w-20 p-3 bg-btn-secondary-clr rounded-lg">
-                                    <img src="images/potato.png" alt="">
+                                    <img class="animate-bounce" src="images/potato.png" alt="">
                                 </figure>
                                 <div class="leading-loose ">
-                                    <div class="space-x-3">
+                                    <div class="space-x-1">
                                         <i class="fa-solid fa-star text-xs" style="color: #ffd43b"></i>
-                                        <h5 class="text-xs inline">4.5</h5>
+                                        <h5 class="text-sm inline">4.5</h5>
                                     </div>
                                     <h3 class="text-xs font-semibold">potato 500g</h3>
-                                    <h5 class="text-xs font-semibold">$49.99</h5>
+                                    <h5 class="text-xs font-semibold">$48.99</h5>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +315,7 @@
         <!-- Arrival & Offers section -->
         <section class="w-[85%] mx-auto py-16">
             <!-- tittle part -->
-            <h1 class="py-8 md:py-12 font-semibold text-4xl text-btn-primary-clr">Arrival & Offers</h1>
+            <h1 class="py-8 md:py-12 font-semibold md:text-4xl text-3xl text-btn-primary-clr">Arrival & Offers</h1>
 
             <!-- card part -->
             <div class="flex mx-auto gap-4 md:gap-2 md:flex-row flex-col">
@@ -328,7 +332,7 @@
                     </div>
                     <!-- image-2 -->
 
-                    <img class="w-[40%] md:w-[45%] md:ml-24 py-10 " src="images/dawat-mock-up.png" alt="">
+                    <img class="w-[40%] md:w-[45%] md:ml-24 py-10" src="images/dawat-mock-up.png" alt="">
                 </div>
 
                 <!-- card-2 -->
@@ -340,19 +344,19 @@
                             <img class="w-16" src="images/india-gate-logo.png" alt="">
                         </figure>
                         <button class="bg-[#2A4D97]  py-3 px-4 md:px-8 rounded-lg text-white">World’s No.1 Rice</button>
-                        <h2 class="md:text-2xl text-white">UP to <span class="font-bold">20% OFF</span></h2>
+                        <h2 class="md:text-2xl text-white">UP to <span class="font-bold">40% OFF</span></h2>
                     </div>
                     <!-- image-2 -->
 
-                    <img class="w-[40%] md:ml-4 mb-10 mt-10" src="images/india-gate-mock-up.png" alt="">
+                    <img class="w-[40%] md:ml-5 ml-3 mb-10 mt-10" src="images/india-gate-mock-up.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- Extraa section -->
-        <section class="w-[85%] mx-auto md:py-12">
+        <section class="w-[85%] mx-auto py-16 mb-16">
             <!-- tittle part -->
-            <h1 class="py-8 md:py-12 font-semibold text-4xl text-btn-primary-clr">Recommended for you</h1>
+            <h1 class="py-8 md:py-12 font-semibold md:text-4xl text-3xl text-btn-primary-clr">Recommended for you</h1>
 
             <!-- card part -->
             <div class="grid md:grid-cols-5 grid-cols-1 md:gap-2 gap-5">
@@ -361,9 +365,9 @@
                     <figure class="">
                         <img src="images/mr-noodles.jpg" alt="" />
                     </figure>
-                    <div class="items-center text-center">
+                    <div class="text-center">
                         <p class="text-xs"><i>Delivery 1-2 hours</i></p>
-                        <h2 class="card-title pt-2">Mr.Noodles Super Spicy</h2>
+                        <h2 class="font-semibold text-xl pt-2">Mr.Noodles Super Spicy</h2>
                         <p>৳200</p>
                     </div>
                 </div>
@@ -373,9 +377,9 @@
                     <figure class="">
                         <img src="images/oil.jpg" alt="" />
                     </figure>
-                    <div class="items-center text-center">
+                    <div class="text-center">
                         <p class="text-xs"><i>Delivery 1-2 hours</i></p>
-                        <h2 class="card-title pt-2">Fresh Soyabean Oil 5Litter</h2>
+                        <h2 class="font-semibold text-xl pt-2">Fresh Soyabean Oil 5Litter</h2>
                         <p>৳852</p>
                     </div>
                 </div>
@@ -385,9 +389,9 @@
                     <figure class="">
                         <img src="images/odomos.jpg" alt="" />
                     </figure>
-                    <div class="items-center text-center">
+                    <div class="text-center">
                         <p class="text-xs"><i>Delivery 1-2 hours</i></p>
-                        <h2 class="card-title pt-2">Odomos Cream 100gm</h2>
+                        <h2 class="font-semibold text-xl pt-2">Odomos Cream 100gm</h2>
                         <p>৳220</p>
                     </div>
                 </div>
@@ -396,9 +400,9 @@
                     <figure class="">
                         <img src="images/miniket.jpg" alt="" />
                     </figure>
-                    <div class="items-center text-center">
+                    <div class="text-center">
                         <p class="text-xs"><i>Delivery 1-2 hours</i></p>
-                        <h2 class="card-title pt-2">Nazirshail Rice Loose (S) (1kg)</h2>
+                        <h2 class="font-semibold text-xl pt-2">Nazirshail Rice Loose (S) (1kg)</h2>
                         <p>৳65</p>
                     </div>
                 </div>
@@ -407,9 +411,9 @@
                     <figure class="">
                         <img src="images/haleem.jpg" alt="" />
                     </figure>
-                    <div class="items-center text-center">
+                    <div class="text-center">
                         <p class="text-xs"><i>Delivery 1-2 hours</i></p>
-                        <h2 class="card-title pt-2">Radhuni Haleem Mix 200gm </h2>
+                        <h2 class="font-semibold text-xl pt-2">Radhuni Haleem Mix 200gm </h2>
                         <p>৳60</p>
                     </div>
                 </div>
@@ -417,9 +421,55 @@
 
         </section>
     </main>
-    <!-- footer section -->
-    <footer>
 
+    <!-- footer part -->
+    <footer class="bg-[#179800]  text-white md:h-[650px] h-[900px] relative mt-96">
+        <!-- Get Grocery section-->
+        <section class="w-[85%] mx-auto py-20 bg-btn-secondary-clr absolute rounded-3xl md:-mt-[17%] -mt-[62%] ml-[7%]">
+            <div class="flex md:flex-row flex-col">
+                <!-- image part -->
+                <div class="">
+                    <img class="w-[85%] md:pl-16 pl-12 -mt-10" src="images/vegetable-busket.png" alt="">
+                </div>
+
+                <!-- right part -->
+                <div class="md:w-[50%] md:mt-10 md:ml-20 text-center md:text-left mt-5">
+                    <h2 class="font-bold md:text-3xl text-xl md:text-[#111111] text-[#179800]">Get Grocery News!</h2>
+                    <p class="text-[#111111] md:py-8 py-4 md:px-0 px-2">Exclusive training tips, ticks, product deals
+                        and more.</p>
+                    <input class="outline-none focus:text-black p-3 w-[4/5] md:w-[60%] rounded-lg" type="email"
+                        placeholder="Enter email....">
+                    <br>
+                    <button class="md:mt-10 mt-3 bg-btn-primary-clr py-2 px-5 rounded-lg text-white">Subscribe
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- green part -->
+        <div class="md:w-[85%] mx-auto md:flex justify-between absolute bottom-20 md:left-20 left-10">
+            <div class="md:w-3/12">
+                <img src="images/logo-footer.png" alt="footer logo">
+                <p class="py-2"> Popular products are items frequently bought due to high demand, quality, and
+                    trendiness.
+                </p>
+            </div>
+            <div class="py-8 md:py-0 flex flex-col gap-2 ">
+                <!-- footer navbar  -->
+                <a href="" class="no-underline">Product</a>
+                <a href="" class="no-underline">Services</a>
+                <a href="" class="no-underline">Contact us</a>
+            </div>
+            <!-- footer icon -->
+            <div class=" md:mt-10">
+                <h4>Follow Us</h4>
+                <div class="space-x-3 text-xl ">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
